@@ -1,0 +1,30 @@
+/* TEAM */
+	Project Initiator: Mario Rimann
+	E-Mail: mario@rimann.org
+	Website: http://www.rimann.org/
+	Twitter: @mrimann
+	From: Lucerne, Switzerland
+
+	To be extended by more man- or womanpower :-)
+
+
+/* THANKS */
+
+	For: The Socialico Font
+	Web: http://fontfabric.com/social-media-icons-pack/
+
+	For: A nice template that inspired this page :-)
+	Web: http://kozdo.com/goforit-reloaded/
+
+	For: A nice image under the Creative Commons license
+	Web: http://www.flickr.com/photos/clover_1/138839828/
+
+	For: Some artwork and logo preparations
+	Web: www.claudiorimann.ch
+
+
+/* SITE */
+	Last update: 2013 - but don't expect me to update this line in every case...
+	Language: English
+	Doctype: HTML5
+	IDE: PhpStorm

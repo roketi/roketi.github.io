@@ -2,7 +2,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Roketi - Cluser Hosting Control-Panel</title>
+	<title>Roketi - Cluster Hosting Control-Panel</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width">
 
@@ -22,7 +22,7 @@
 		<div class="container">
 			<div class="navbar-header">
 				<a href="/" class="navbar-brand">
-					<img src="/res/img/roketi_logo.png" />
+					<img src="res/img/roketi_logo.svg" alt="roketi Logo" onerror="this.onerror=null; this.src='res/img/roketi_logo.png'" />
 				</a>
 			</div>
 			<div class="navbar-collapse collapse">
@@ -40,7 +40,7 @@
 </div>
 
 <div class="row" id="moodImage">
-	<img src="/res/img/moodImage.jpg" />
+	<img src="res/img/moodImage.jpg" />
 </div>
 <div class="row light" id="mission">
 	<div class="container">
@@ -72,7 +72,7 @@
 				<li>Two or more Mail-Servers</li>
 			</ul>
 			<p>This will enable a <bold>multi-node or cluster architecture</bold> where one master "controls" many single nodes that deliver the services.</p>
-			<p>All of the nodes that deliver any kind of service will run a small agent that connects to the central management host to get the needed details. Depending of the role(s) of the single node, the management system will provide the agent with the needed details in a raw format. After fetching it's configuration, the agent then locally generates the neede config files to be able to deliver it's services.</p>
+			<p>All of the nodes that deliver any kind of service will run a small agent that connects to the central management host to get the needed details. Depending of the role(s) of the single node, the management system will provide the agent with the needed details in a raw format. After fetching it's configuration, the agent then locally generates the needed config files to be able to deliver it's services.</p>
 			<p>Every node can contain one ore more roles - so that one can start small and add more nodes depending on the growing needs. We recommend to start with some redundancy from the start - but basically, a very small setup can consist of one server containing both the management system and the needed server-roles on the same server.</p>
 		</div>
 	</div>
@@ -97,7 +97,7 @@
 			<ul>
 				<li>Probably Nginx based</li>
 				<li>With PHP-FPM to serve dynamic content</li>
-				<li>Other script languages like Ruby could be implemented, too (depending no someone to do that)</li>
+				<li>Other script languages like Ruby could be implemented, too (depending on someone to do that)</li>
 			</ul>
 		</div>
 		<div class="col-md-4">
@@ -123,12 +123,12 @@
 	<div class="container">
 		<div class="col-sm-4">
 			<h2>Contact us:</h2>
-			<p>At the moment, I'm trying to get a small but powerful team together to build that awesome project.</p>
+			<p>At the moment, i'm trying to get a small but powerful team together to build that awesome project.</p>
 			<p>If you're interested, just <a href="mailto:mario@rimann.org">get in touch</a>!</p>
 		</div>
 		<div class="col-sm-4">
 			<div class="team-member">
-				<img alt="Mario Rimann" src="/res/img/mario_rimann.jpg">
+				<img alt="Mario Rimann" src="res/img/mario_rimann.jpg">
 				<h2>Mario Rimann</h2>
 				<p class="position">Trying to get things going</p>
 				<p><a href="mailto:mario@rimann.org">mario@rimann.org</a></p>
@@ -141,7 +141,7 @@
 		</div>
 		<div class="col-sm-4">
 			<div class="team-member">
-				<img alt="Maybe you? (Image from http://www.flickr.com/photos/clover_1/138839828/)" src="/res/img/second_team_member.jpg">
+				<img alt="Maybe you? (Image from http://www.flickr.com/photos/clover_1/138839828/)" src="res/img/second_team_member.jpg">
 				<h2>Maybe you?</h2>
 				<p class="position">The next Team Member</p>
 			</div>
@@ -168,8 +168,8 @@
 	</div>
 </div>
 <footer>
-	<a href="#home">
-		<img src="res/img/roketi_logo.png">
+	<a href="#home" class="footer-brand">
+		<img src="res/img/roketi_logo.svg" alt="roketi Logo" onerror="this.onerror=null; this.src='res/img/roketi_logo.png'" />
 	</a>
 </footer>
 

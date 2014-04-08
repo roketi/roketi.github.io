@@ -6003,6 +6003,13 @@ bold {
   text-decoration: none;
   color: #000;
 }
+.forkMeRibbon img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+  z-index: 2000;
+}
 footer {
   padding: 20px 0;
   text-align: center;

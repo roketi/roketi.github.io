@@ -99,18 +99,30 @@
 				<li>For every domain / hosting package you can decide on which nodes you want to operate it</li>
 				<li>The central management system collects usage statistics from the single nodes and shows some reporting</li>
 			</ul>
-			<h3>Web Hosting</h3>
+			<h3>Networking</h3>
 			<ul>
-				<li>Probably <a href="http://nginx.org/" target="_blank">Nginx</a> based</li>
-				<li>With PHP-FPM to serve dynamic content</li>
-				<li>Other script languages like Ruby could be implemented, too (depending on someone to do that)</li>
+				<li>The whole system will be <a href="http://en.wikipedia.org/wiki/IPv6" target="_blank">IPv6 ready</a></li>
+				<li>Servers will be running a dual-stack configuration by default</li>
 			</ul>
-		</div>
-		<div class="col-md-4">
+			<h3>Server Provisioning</h3>
+			<ul>
+				<li>We like <a href="http://http://puppetlabs.com/puppet/puppet-open-source/" target="_blank">Puppet</a> to configure the nodes</li>
+				<li>For fetching the configuration data Hiera will be used</li>
+				<li>Can be exchanged if you like Chef, Ansible or your Bash scripts more - just fetch the configuration of the node from the Roketi API and configure your services</li>
+			</ul>
 			<h3>DNS Hosting</h3>
 			<ul>
 				<li>Master / Slave servers</li>
 				<li>Manage all zones and records from one central web-based application</li>
+			</ul>
+		</div>
+		<div class="col-md-4">
+			<h3>Web Hosting</h3>
+			<ul>
+				<li>Probably <a href="http://nginx.org/" target="_blank">Nginx</a> based</li>
+				<li>With <a href="http://php-fpm.org/" target="_blank">PHP-FPM</a> to serve dynamic content</li>
+				<li>Other script languages like Ruby could be implemented, too (depending on someone to do that)</li>
+				<li>Using <a href="http://en.wikipedia.org/wiki/Server_Name_Indication" target="_blank">SNI</a> for hosting SSL protected sites from a shared IP address</li>
 			</ul>
 			<h3>E-Mail Hosting</h3>
 			<ul>
@@ -119,6 +131,11 @@
 				<li>Webmail access based on <a href="http://roundcube.net" target="_blank">Roundcube</a></li>
 				<li>Of course some kind of spam and virus filtering will be implemented</li>
 				<li>Redundant MX hosts with central storage will be possible</li>
+				<li>Auto-Responders, redirecttions and so on - all configurable from the central control panel</li>
+			</ul>
+			<h3>Billing and Invoicing</h3>
+			<ul>
+				<li>This won't be a core feature of the Roketi Panel - but we'd like to see this getting developed by one that needs this!</li>
 			</ul>
 		</div>
 	</div>

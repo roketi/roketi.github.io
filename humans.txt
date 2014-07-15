@@ -24,7 +24,7 @@
 
 
 /* SITE */
-	Last update: 2013 - but don't expect me to update this line in every case...
+	Last update: 2014 - but don't expect me to update this line in every case...
 	Language: English
 	Doctype: HTML5
 	IDE: PhpStorm
